@@ -1,4 +1,4 @@
-import { ContactItem } from 'components/ContactItem/ContactItem';
+import { ContactItem } from 'components';
 import { ListContainer } from './ContactList.styled';
 import { useSelector } from 'react-redux';
 import { getContacts, getFilter } from 'redux/selectors';

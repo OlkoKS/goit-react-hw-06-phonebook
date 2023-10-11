@@ -5,7 +5,7 @@ const contactsSlice = createSlice({
   initialState: [],
   reducers: {
     createContactData: {
-      prepare(name, number) {
+      prepare({ name, number }) {
         return { payload: { name, number, id: nanoid() } };
       },
       reducer(state, action) {
